@@ -8,5 +8,6 @@
 #include "img/txe.hpp"
 
 #include "bundle/bun.hpp"
+#include "bundle/anm.hpp"
 
 #endif

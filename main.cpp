@@ -32,5 +32,11 @@ int main(int argc, char** argv)
     bun.read(bun_reader);
     bun_file.close();
 
+    std::ifstream anm_file("unit-test/kabekuiA.anm", std::ios_base::binary);
+    util::fstream_reader anm_reader(anm_file, 0, util::fstream_reader::Endianness::Big);
+    piklib::ANM anm;
+    anm.read(anm_reader);
+    anm_file.close();
+
     return 0;
 }
