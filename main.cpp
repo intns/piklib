@@ -1,5 +1,4 @@
-#include <piklib/anim/dca.hpp>
-#include <piklib/anim/dck.hpp>
+#include <piklib/piklib.hpp>
 
 int main(int argc, char** argv)
 {

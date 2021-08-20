@@ -77,5 +77,8 @@
     <ClInclude Include="piklib\anim\dck.hpp">
       <Filter>Header Files\piklib\anim</Filter>
     </ClInclude>
+    <ClInclude Include="piklib\piklib.hpp">
+      <Filter>Header Files\piklib</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
