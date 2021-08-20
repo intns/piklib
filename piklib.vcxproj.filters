@@ -31,6 +31,12 @@
     <Filter Include="Source Files\piklib\anim">
       <UniqueIdentifier>{76e5872f-a315-49f1-a483-f175801962e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\img">
+      <UniqueIdentifier>{08914d9b-f952-4262-ad7a-f8b5f9487add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\img">
+      <UniqueIdentifier>{90fdd707-77d4-4bda-bbea-e80ab832e8e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -47,6 +53,12 @@
     </ClCompile>
     <ClCompile Include="piklib\anim\dck.cpp">
       <Filter>Source Files\piklib\anim</Filter>
+    </ClCompile>
+    <ClCompile Include="piklib\img\txe.cpp">
+      <Filter>Source Files\img</Filter>
+    </ClCompile>
+    <ClCompile Include="piklib\img\bti.cpp">
+      <Filter>Source Files\img</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +91,15 @@
     </ClInclude>
     <ClInclude Include="piklib\piklib.hpp">
       <Filter>Header Files\piklib</Filter>
+    </ClInclude>
+    <ClInclude Include="piklib\img\image_format.hpp">
+      <Filter>Header Files\img</Filter>
+    </ClInclude>
+    <ClInclude Include="piklib\img\txe.hpp">
+      <Filter>Header Files\img</Filter>
+    </ClInclude>
+    <ClInclude Include="piklib\img\bti.hpp">
+      <Filter>Header Files\img</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

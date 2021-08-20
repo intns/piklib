@@ -1,7 +1,10 @@
 #ifndef _PIKLIB_PIKLIB_HPP
 #define _PIKLIB_PIKLIB_HPP
 
-#include <piklib/anim/dca.hpp>
-#include <piklib/anim/dck.hpp>
+#include "anim/dca.hpp"
+#include "anim/dck.hpp"
+
+#include "img/bti.hpp"
+#include "img/txe.hpp"
 
 #endif
