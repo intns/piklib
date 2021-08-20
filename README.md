@@ -3,6 +3,9 @@
 
 ## Supported Formats
 - DIR & ARC
-- BUN & ANM
-- TXE & BTI
-- DCA & DCK
+- BUN
+- ANM
+- TXE
+- BTI
+- DCA
+- DCK
