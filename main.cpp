@@ -26,5 +26,11 @@ int main(int argc, char** argv)
     txe.read(txe_reader);
     txe_file.close();
 
+    std::ifstream bun_file("unit-test/screen.bun", std::ios_base::binary);
+    util::fstream_reader bun_reader(bun_file, 0, util::fstream_reader::Endianness::Big);
+    piklib::BUN bun;
+    bun.read(bun_reader);
+    bun_file.close();
+
     return 0;
 }

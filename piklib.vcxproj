@@ -150,6 +150,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="piklib\anim\dca.cpp" />
     <ClCompile Include="piklib\anim\dck.cpp" />
+    <ClCompile Include="piklib\bundle\bun.cpp" />
     <ClCompile Include="piklib\img\bti.cpp" />
     <ClCompile Include="piklib\img\txe.cpp" />
     <ClCompile Include="util\fstream_reader.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="piklib\anim\anim_format.hpp" />
     <ClInclude Include="piklib\anim\dca.hpp" />
     <ClInclude Include="piklib\anim\dck.hpp" />
+    <ClInclude Include="piklib\bundle\bun.hpp" />
     <ClInclude Include="piklib\img\bti.hpp" />
     <ClInclude Include="piklib\img\image_format.hpp" />
     <ClInclude Include="piklib\img\txe.hpp" />

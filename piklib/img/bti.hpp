@@ -15,7 +15,7 @@ enum class BTI_Formats : u8 {
     C4 = 0x08,
     C8 = 0x09,
     C14X2 = 0x0A,
-    CMPR = 0x0E,
+    CMPR = 0x0E
 };
 
 struct BTI : public img_format {

@@ -31,11 +31,17 @@
     <Filter Include="Source Files\piklib\anim">
       <UniqueIdentifier>{76e5872f-a315-49f1-a483-f175801962e1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\img">
+    <Filter Include="Header Files\piklib\bundle">
+      <UniqueIdentifier>{69ea8886-c81f-4c56-979a-3d42be6f8d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\piklib\img">
       <UniqueIdentifier>{08914d9b-f952-4262-ad7a-f8b5f9487add}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\img">
+    <Filter Include="Source Files\piklib\img">
       <UniqueIdentifier>{90fdd707-77d4-4bda-bbea-e80ab832e8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\piklib\bundle">
+      <UniqueIdentifier>{8e5a5ff4-c517-4471-9e95-06963f511aa5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -55,10 +61,13 @@
       <Filter>Source Files\piklib\anim</Filter>
     </ClCompile>
     <ClCompile Include="piklib\img\txe.cpp">
-      <Filter>Source Files\img</Filter>
+      <Filter>Source Files\piklib\img</Filter>
     </ClCompile>
     <ClCompile Include="piklib\img\bti.cpp">
-      <Filter>Source Files\img</Filter>
+      <Filter>Source Files\piklib\img</Filter>
+    </ClCompile>
+    <ClCompile Include="piklib\bundle\bun.cpp">
+      <Filter>Source Files\piklib\bundle</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -93,13 +102,16 @@
       <Filter>Header Files\piklib</Filter>
     </ClInclude>
     <ClInclude Include="piklib\img\image_format.hpp">
-      <Filter>Header Files\img</Filter>
+      <Filter>Header Files\piklib\img</Filter>
     </ClInclude>
     <ClInclude Include="piklib\img\txe.hpp">
-      <Filter>Header Files\img</Filter>
+      <Filter>Header Files\piklib\img</Filter>
     </ClInclude>
     <ClInclude Include="piklib\img\bti.hpp">
-      <Filter>Header Files\img</Filter>
+      <Filter>Header Files\piklib\img</Filter>
+    </ClInclude>
+    <ClInclude Include="piklib\bundle\bun.hpp">
+      <Filter>Header Files\piklib\bundle</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
