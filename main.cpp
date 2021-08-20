@@ -38,5 +38,12 @@ int main(int argc, char** argv)
     anm.read(anm_reader);
     anm_file.close();
 
+    std::ifstream dir_file("unit-test/tekis.dir", std::ios_base::binary);
+    util::fstream_reader dir_reader(dir_file, 0, util::fstream_reader::Endianness::Big);
+    piklib::DIR dir;
+    dir.setFilename("unit-test/tekis.dir");
+    dir.read(dir_reader);
+    dir_file.close();
+
     return 0;
 }

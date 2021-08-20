@@ -9,5 +9,6 @@
 
 #include "bundle/bun.hpp"
 #include "bundle/anm.hpp"
+#include "bundle/dir.hpp"
 
 #endif

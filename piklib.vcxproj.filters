@@ -69,6 +69,9 @@
     <ClCompile Include="piklib\bundle\bun.cpp">
       <Filter>Source Files\piklib\bundle</Filter>
     </ClCompile>
+    <ClCompile Include="piklib\bundle\dir.cpp">
+      <Filter>Source Files\piklib\bundle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="util\fstream_reader.hpp">
@@ -111,6 +114,9 @@
       <Filter>Header Files\piklib\img</Filter>
     </ClInclude>
     <ClInclude Include="piklib\bundle\bun.hpp">
+      <Filter>Header Files\piklib\bundle</Filter>
+    </ClInclude>
+    <ClInclude Include="piklib\bundle\dir.hpp">
       <Filter>Header Files\piklib\bundle</Filter>
     </ClInclude>
   </ItemGroup>
