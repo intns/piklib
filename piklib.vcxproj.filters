@@ -45,6 +45,9 @@
     <ClCompile Include="piklib\anim\dca.cpp">
       <Filter>Source Files\piklib\anim</Filter>
     </ClCompile>
+    <ClCompile Include="piklib\anim\dck.cpp">
+      <Filter>Source Files\piklib\anim</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="util\fstream_reader.hpp">
@@ -69,6 +72,9 @@
       <Filter>Header Files\piklib</Filter>
     </ClInclude>
     <ClInclude Include="piklib\anim\dca.hpp">
+      <Filter>Header Files\piklib\anim</Filter>
+    </ClInclude>
+    <ClInclude Include="piklib\anim\dck.hpp">
       <Filter>Header Files\piklib\anim</Filter>
     </ClInclude>
   </ItemGroup>

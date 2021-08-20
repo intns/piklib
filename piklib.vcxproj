@@ -149,12 +149,14 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="piklib\anim\dca.cpp" />
+    <ClCompile Include="piklib\anim\dck.cpp" />
     <ClCompile Include="util\fstream_reader.cpp" />
     <ClCompile Include="util\vector_reader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="piklib\anim\anim_format.hpp" />
     <ClInclude Include="piklib\anim\dca.hpp" />
+    <ClInclude Include="piklib\anim\dck.hpp" />
     <ClInclude Include="piklib\pik_format.hpp" />
     <ClInclude Include="types.hpp" />
     <ClInclude Include="util\fstream_reader.hpp" />
