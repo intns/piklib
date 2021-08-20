@@ -13,5 +13,63 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Util-Lib">
+      <UniqueIdentifier>{eba44c40-0e14-4bff-b4b2-99bc3512763d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util-Lib">
+      <UniqueIdentifier>{a6f25efc-d6b8-4222-a9f1-b670158e7108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\piklib">
+      <UniqueIdentifier>{e668aa84-c81e-458f-9f4a-44a002c61243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\piklib\anim">
+      <UniqueIdentifier>{167ee4ea-da55-4650-9d96-19cfe28d6425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\piklib">
+      <UniqueIdentifier>{3b6f98b3-b64f-49f7-b07e-61f2ff7e8304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\piklib\anim">
+      <UniqueIdentifier>{76e5872f-a315-49f1-a483-f175801962e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\vector_reader.cpp">
+      <Filter>Source Files\Util-Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="util\fstream_reader.cpp">
+      <Filter>Source Files\Util-Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="piklib\anim\dca.cpp">
+      <Filter>Source Files\piklib\anim</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util\fstream_reader.hpp">
+      <Filter>Header Files\Util-Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="util\misc.hpp">
+      <Filter>Header Files\Util-Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="util\tokeniser.hpp">
+      <Filter>Header Files\Util-Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="util\vector_reader.hpp">
+      <Filter>Header Files\Util-Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="piklib\anim\anim_format.hpp">
+      <Filter>Header Files\piklib\anim</Filter>
+    </ClInclude>
+    <ClInclude Include="piklib\pik_format.hpp">
+      <Filter>Header Files\piklib</Filter>
+    </ClInclude>
+    <ClInclude Include="piklib\anim\dca.hpp">
+      <Filter>Header Files\piklib\anim</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
