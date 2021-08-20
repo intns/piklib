@@ -1,4 +1,4 @@
-#include <piklib/anim/dck.hpp>
+#include "dck.hpp"
 
 namespace piklib {
 void DCK::read(util::fstream_reader& reader)

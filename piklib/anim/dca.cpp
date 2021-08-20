@@ -1,4 +1,4 @@
-#include <piklib/anim/dca.hpp>
+#include "dca.hpp"
 
 namespace piklib {
 void DCA::read(util::fstream_reader& reader)

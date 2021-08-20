@@ -1,7 +1,7 @@
 #ifndef _PIKLIB_ANIM_FORMAT_HPP
 #define _PIKLIB_ANIM_FORMAT_HPP
 
-#include <piklib/pik_format.hpp>
+#include "../pik_format.hpp"
 #include <vector>
 
 namespace piklib {

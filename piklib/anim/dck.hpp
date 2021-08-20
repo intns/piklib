@@ -2,7 +2,7 @@
 #define _PIKLIB_DCK_HPP
 
 #include <array>
-#include <piklib/anim/anim_format.hpp>
+#include "anim_format.hpp"
 
 namespace piklib {
 struct dck_joint : public piklib::anim_joint {
