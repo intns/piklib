@@ -22,7 +22,7 @@ struct TXE : public img_format {
     void read(util::fstream_reader&) override;
     const char* getExtension() override { return ".txe"; }
 
-    u16 m_format;
+    u16 m_format = 0;
 };
 }
 

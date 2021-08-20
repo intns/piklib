@@ -25,22 +25,21 @@ struct BTI : public img_format {
     void read(util::fstream_reader&) override;
     const char* getExtension() override { return ".bti"; }
 
-            
-    s8 m_format;
-    s8 m_alphaEnabled;
-    s8 m_wrapS;
-    s8 m_wrapT;
-    s8 m_unknown;
-    s8 m_paletteFormat;
-    u16 m_paletteEntryCount;
-    u32 m_paletteOffset;
-    u32 m_borderColor;
-    s8 m_minFilter;
-    s8 m_magFilter;
-    s16 m_unknown2;
-    s8 m_mipCount;
-    s8 m_unknown3;
-    s16 m_lodBias;
+    s8 m_format = 0;
+    s8 m_alphaEnabled = 0;
+    s8 m_wrapS = 0;
+    s8 m_wrapT = 0;
+    s8 m_unknown = 0;
+    s8 m_paletteFormat = 0;
+    u16 m_paletteEntryCount = 0;
+    u32 m_paletteOffset = 0;
+    u32 m_borderColor = 0;
+    s8 m_minFilter = 0;
+    s8 m_magFilter = 0;
+    s16 m_unknown2 = 0;
+    s8 m_mipCount = 0;
+    s8 m_unknown3 = 0;
+    s16 m_lodBias = 0;
     u32 m_dataOffset = 32;
     std::vector<u8> m_paletteData;
 };
